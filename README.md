@@ -18,11 +18,11 @@ Install google maps library for react
 
 `--force` can be used to for some errors that might arise
 
-*The files logo.svg, App.css, index.css will not be used and can be removed*
+*The files `logo.svg`, `App.css`, `index.css` will not be used and can be removed*
 
 ## 2. Add map component
 
-Open the App.js file.
+Open the `App.js` file.
 
 Create a component to load a google map.
 
@@ -59,15 +59,15 @@ export default GoogleApiWrapper({
 ```
 
 
-
 The optional props in the `Map` component are:
 - **style** - takes in a css style object
 - **zoom** - a number value representing height of map camera]
 - **initialCenter** - an object with latitude and longitude coordinates
 
-In the index.js import MapContainer from App.js
+In the `index.js` import `MapContainer` from `App.js`
 
-At this point the basic code for index.js looks like
+At this point the basic code for `index.js` looks like
+
 ```
 import React from 'react';
 import ReactDOM from 'react-dom';
