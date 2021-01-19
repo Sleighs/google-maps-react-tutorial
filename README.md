@@ -85,4 +85,4 @@ In the terminal run the app.
 
 `npm start`
 
-![Part 1 Screenshot](/google-maps-app/public/maps_tutorial_pic_1.png)
+![Part 1 Screenshot](https://github.com/Sleighs/google-maps-react-tutorial/blob/master/google-maps-app/public/maps%20tutorial%20pic%201.png)
