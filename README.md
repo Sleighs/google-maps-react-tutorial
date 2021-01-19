@@ -4,25 +4,26 @@
 
 `npx create-react-app google-maps-app`
 
-navigate to directory
+Navigate to the app's directory
 
 `cd google-maps-app`
 
-install google maps library for react
+Install google maps library for react
 
 `npm install google-maps-react`
 
---force if necessary
+`--force` can be used to for some errors that might arise
 
-*The files logo.svg, App.css, index.css will not be used and can be removed
-
+*The files logo.svg, App.css, index.css will not be used and can be removed*
 
 ## 2. Add map component
 
-edit App.js file
-create a component to load a google map
+Open the App.js file.
 
-`import React, { Component } from 'react';
+Create a component to load a google map.
+
+```
+import React, { Component } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
 const mapStyle = {
@@ -50,29 +51,29 @@ export class MapContainer extends Component {
 
 export default GoogleApiWrapper({
   apiKey: 'YOUR_API_KEY'
-})(MapContainer);`
+})(MapContainer);
+```
 
 
-replace 'YOUR_API_KEY' with your Google Maps Javascript API api
 
-The map component takes in some optional props:
-- style - takes in a css style object
-- zoom - a number value representing height of map camera
-- initialCenter - an object with latitude and longitude coordinates
-
+The optional props in the `Map` component are:
+- **style** - takes in a css style object
+- **zoom** - a number value representing height of map camera]
+- **initialCenter** - an object with latitude and longitude coordinates
 
 In the index.js import MapContainer from App.js
 
 At this point the basic code for index.js looks like
-
-`import React from 'react';
+```
+import React from 'react';
 import ReactDOM from 'react-dom';
 import MapContainer from './App';
 
 ReactDOM.render(
     <MapContainer />,
   document.getElementById('root')
-);`
+);
+```
 
-In the terminal run the app
-npm start 
+In the terminal run the app.
+'npm start' 
