@@ -61,7 +61,7 @@ export default GoogleApiWrapper({
 ```
 
 
-The optional props in the `Map` component are:
+Optional props used here in the `Map` component are:
 - **style** - takes in a css style object
 - **zoom** - a number value representing height of map camera
 - **initialCenter** - an object with latitude and longitude coordinates
