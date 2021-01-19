@@ -85,3 +85,4 @@ In the terminal run the app.
 
 `npm start`
 
+![Part 1](/google-maps-app/public/maps tutorial pic 1.png)
