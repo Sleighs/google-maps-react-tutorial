@@ -75,7 +75,3 @@ ReactDOM.render(
 In the terminal run the app
 npm start 
 
-
-
-
-https://www.digitalocean.com/community/tutorials/how-to-integrate-the-google-maps-api-into-react-applications#step-3-%E2%80%94-using-markers-and-infowindow
