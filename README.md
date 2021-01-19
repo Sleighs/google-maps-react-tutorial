@@ -18,7 +18,7 @@ Install the Google Maps library for react.
 
 `npm install google-maps-react`
 
-`--force` can be used to for some errors that might arise
+>`--force` can be used with the command to force install the library to circumvent some errors that might arise
 
 *The files `logo.svg`, `App.css`, `index.css` will not be used and can be removed*
 
