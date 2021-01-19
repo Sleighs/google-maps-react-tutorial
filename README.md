@@ -1,6 +1,6 @@
 # Tutorial - How to integrate Google Maps into React
 
-Prerequisites
+### Prerequisites
 - Node.Js
 - Google Maps Javascript API Key
 
@@ -79,5 +79,7 @@ ReactDOM.render(
 );
 ```
 
-In the terminal run the app.
-'npm start' 
+In the terminal run the app. 
+
+`npm start`
+
