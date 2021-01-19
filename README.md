@@ -1,28 +1,28 @@
-# google-maps-react-tutorial
+# Tutorial - How to integrate Google Maps into React
 
-1. Create a new react app
+## 1. Create a new react app
 
-npx create-react-app google-maps-app
+`npx create-react-app google-maps-app`
 
 navigate to directory
 
-cd google-maps-app
+`cd google-maps-app`
 
 install google maps library for react
 
-npm install google-maps-react
---force may help
+`npm install google-maps-react`
 
-*The project will include files that won't be used for in this tutorial and can be removed
-logo.svg, App.css, index.css
+--force if necessary
+
+*The files logo.svg, App.css, index.css will not be used and can be removed
 
 
-2. Add map component
+## 2. Add map component
 
 edit App.js file
 create a component to load a google map
 
-import React, { Component } from 'react';
+`import React, { Component } from 'react';
 import { Map, GoogleApiWrapper } from 'google-maps-react';
 
 const mapStyle = {
@@ -50,7 +50,7 @@ export class MapContainer extends Component {
 
 export default GoogleApiWrapper({
   apiKey: 'YOUR_API_KEY'
-})(MapContainer);
+})(MapContainer);`
 
 
 replace 'YOUR_API_KEY' with your Google Maps Javascript API api
@@ -65,14 +65,14 @@ In the index.js import MapContainer from App.js
 
 At this point the basic code for index.js looks like
 
-import React from 'react';
+`import React from 'react';
 import ReactDOM from 'react-dom';
 import MapContainer from './App';
 
 ReactDOM.render(
     <MapContainer />,
   document.getElementById('root')
-);
+);`
 
 In the terminal run the app
 npm start 
