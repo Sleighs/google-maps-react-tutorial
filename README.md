@@ -1,5 +1,9 @@
 # Tutorial - How to integrate Google Maps into React
 
+Prerequisites
+- Node.Js
+- Google Maps Javascript API Key
+
 ## 1. Create a new react app
 
 `npx create-react-app google-maps-app`
