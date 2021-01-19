@@ -1,4 +1,4 @@
-# Tutorial - How to integrate Google Maps into React
+# Tutorial - How to Add a Google Maps Component into React
 
 ### Prerequisites
 - Node.Js
@@ -18,7 +18,7 @@ Install the Google Maps library for react.
 
 `npm install google-maps-react`
 
->`--force` can be used with the command to force install the library to circumvent some errors that might arise
+>`--force` can be used with the command to force the install to circumvent some errors that might arise
 
 *The files `logo.svg`, `App.css`, `index.css` will not be used and can be removed*
 
@@ -61,9 +61,9 @@ export default GoogleApiWrapper({
 ```
 
 
-The optional props in the `Map` component are:
+Optional props used here in the `Map` component are:
 - **style** - takes in a css style object
-- **zoom** - a number value representing height of map camera]
+- **zoom** - a number value representing height of map camera
 - **initialCenter** - an object with latitude and longitude coordinates
 
 In the `index.js` import `MapContainer` from `App.js`
