@@ -4,7 +4,9 @@
 - Node.Js
 - Google Maps Javascript API Key
 
-## 1. Create a new react app
+## 1. Create React app
+
+Create a React app.
 
 `npx create-react-app google-maps-app`
 
@@ -12,7 +14,7 @@ Navigate to the app's directory
 
 `cd google-maps-app`
 
-Install google maps library for react
+Install the Google Maps library for react.
 
 `npm install google-maps-react`
 
