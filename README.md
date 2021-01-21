@@ -86,6 +86,8 @@ In the terminal run the app.
 `npm start`
 
 ### Screenshot
+![Screenshot with API key](https://github.com/Sleighs/google-maps-react-tutorial/blob/master/google-maps-app/public/google%20maps%20api%20tutorial%20pic.png)
+
 Without an API key the map will show in developer mode as shown below.
 
-![Part 1 Screenshot](https://github.com/Sleighs/google-maps-react-tutorial/blob/master/google-maps-app/public/maps%20tutorial%20pic%201.png)
+![Screenshot without key](https://github.com/Sleighs/google-maps-react-tutorial/blob/master/google-maps-app/public/maps%20tutorial%20pic%201.png)
