@@ -1,4 +1,4 @@
-# Tutorial - How to Add a Google Maps Component into React
+# How to Add a Google Maps Component into React
 
 ### Prerequisites
 - Node.Js
